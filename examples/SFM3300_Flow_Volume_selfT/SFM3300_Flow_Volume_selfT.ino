@@ -131,7 +131,7 @@ void loop() {
     SFM_measure();
   }
 
-  if (ms_curr - ms_display >= ms_curr) { // "soft interrupt" every dms milliseconds
+  if (ms_curr - ms_display >= dms) { // "soft interrupt" every dms milliseconds
     ms_display = ms_curr;
     display_flow_volume(true);
   }

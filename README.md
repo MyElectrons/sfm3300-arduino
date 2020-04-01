@@ -34,8 +34,11 @@ Sketch | Description
 * Implement a non-blocking i2c interface and timing using hardware interrupts
 * Reduce measurement intervals to the minimal supported by the sensor (4ms) to obtain the highest achievable precision
 * Port it to a robust microcontroller
+* Wrap the code into a library with an easy to use interface
 
-Obviously the code asks for being wrapped into a library with an easy to use interface. I will definitely do that as soon as there's a real-life use-case for this. **Please drop me a note should you have a need for this!**
+I will definitely do all above should there be a real-life use-case for this. **Please drop me a note should you have a need for this!**
+
+* Just for fun I am also thinking of hooking up a small OLED display to the thing and make it a lung volume measurement device.
 
 ## Connecting to the sensor
 
