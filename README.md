@@ -24,12 +24,12 @@ The code (or at least the snippets) is very compact and well commented. It can b
 
 Sketch | Description
 ------ | -----------
-SFM3300_simplest | Run your SFM3300 with Arduino with just **10 lines of code** (not counting the usual Arduino initialization stuff)
-SFM3300_Original_CRC | Implement **CRC check according to manufacturer's documentation**
-SFM3300_CRC | **Nimble CRC** function; **Soft Reset** sensor at startup; Rough **Air Volume** calculation (integrating flow at 100ms intervals); **Soft Interrupt** example
-SFM3300_Flow_Volume_selfT | Read **Serial Number** at startup; **Improved Air Volume measurement precision** by taking measurements every 10ms; Reset Air Volume with every flow direction change for convenience
+<a href="https://github.com/MyElectrons/sfm3300-arduino/blob/master/examples/SFM3300_simplest/SFM3300_simplest.ino">SFM3300_simplest</a> | Run your SFM3300 with Arduino with just **10 lines of code** (not counting the usual Arduino initialization stuff)
+<a href="https://github.com/MyElectrons/sfm3300-arduino/blob/master/examples/SFM3300_Original_CRC/SFM3300_Original_CRC.ino">SFM3300_Original_CRC</a> | Implement **CRC check according to manufacturer's documentation**
+<a href="https://github.com/MyElectrons/sfm3300-arduino/blob/master/examples/SFM3300_CRC/SFM3300_CRC.ino">SFM3300_CRC</a> | **Nimble CRC** function; **Soft Reset** sensor at startup; Rough **Air Volume** calculation (integrating flow at 100ms intervals); **Soft Interrupt** example
+<a href="https://github.com/MyElectrons/sfm3300-arduino/blob/master/examples/SFM3300_Flow_Volume_selfT/SFM3300_Flow_Volume_selfT.ino">SFM3300_Flow_Volume_selfT</a> | Read **Serial Number** at startup; **Improved Air Volume measurement precision** by taking measurements every 10ms; Reset Air Volume with every flow direction change for convenience
 
-###Wish List
+### Wish List
 
 * Implement a non-blocking i2c interface and timing using interrupts
 * Reduce measurement intervals to the minimal supported by the sensor (4ms) to obtain the highest achievable precision
