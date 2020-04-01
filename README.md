@@ -17,8 +17,8 @@ The code was written with the following goals in mind:
   * "Soft Timer Interrupts" technique with 1ms resolution
 * Validate precision of Air Volume measurements achievable with SFM3300
   * Preliminary results appear to be very good (sub-cc resolution, good repeatability)
-  * Volume measurements with repeatable precision - work in progress
-  * Once validated - this project can be used for testing (cross-checking) other Air Flow and Volume sensors implementations
+  * Volume measurements with repeatable precision - *work in progress*
+  * Once validated - this project can be used for **testing other Air Flow and Volume sensors**
 
 The code (or at least the snippets) is very compact and well commented. It can be adapted easily to any other C/C++ programming environment, or serve as examples for implementations in other programming languages. Each subsequent sketch builds upon previous one while adding a little bit of sophistication:
 
@@ -31,7 +31,7 @@ Sketch | Description
 
 ### Wish List
 
-* Implement a non-blocking i2c interface and timing using interrupts
+* Implement a non-blocking i2c interface and timing using hardware interrupts
 * Reduce measurement intervals to the minimal supported by the sensor (4ms) to obtain the highest achievable precision
 * Port it to a robust microcontroller
 
