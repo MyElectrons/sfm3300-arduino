@@ -29,5 +29,15 @@ While the sensor manufacturer may be able to provide specialized connection caps
 
 <img src="assets/SFM3300-DIY-assembly.jpg" width="800"/>
 
-## Electrical compatibility
+## Compatibility
 The sensor requires 5V power supply and 5V-compatible levels and pull-ups on i2c. As is it will work fine with any AVR based 5V Arduino board. The 5V i2c can be adapted to a lower voltage controller (e.g.: 3.3V - RPi, Arduino Due, ESP-8266, etc.) using a simple level converter with two low power MOSFET transistors, or an integrated i2c level converter or isolator.
+
+The project was tested with Arduino NANO.
+
+## How to Run
+
+`git clone https://github.com/MyElectrons/sfm3300-arduino.git`
+
+Run Arduino environment, load a sample sketch, compile and upload it
+
+Open Serial Monitor: `Arduino --> Tools --> Serial Monitor`, set it to 115200 baud
