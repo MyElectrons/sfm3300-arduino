@@ -1,6 +1,6 @@
 # Measuring Air Flow and Volume with Sensirion i2c SFM3300 - examples for Arduino (C, C++)
 
-The sample Arduino sketches in this project show application of Sensirion SFM3000 Series Mass Flow Meters for measurements of the air flow and air volume.
+Arduino sketches in this project show application of Sensirion SFM3000 Series Mass Flow Meters for measuring the air flow and air volume.
 
 <img src="assets/SFM3300-new.jpg" width="800"/>
 
@@ -12,13 +12,13 @@ Still, if this little code may help some other team out there to advance quicker
 The code was written with the following goals in mind:
 * Show how simple it is to communicate with the sensor via i2c
 * Provide easy to use snippets inside the working code
- * CRC calculation
- * Air Volume calculation
- * "Soft Timer Interrupts" technique with 1ms resolution
+  * CRC calculation
+  * Air Volume calculation
+  * "Soft Timer Interrupts" technique with 1ms resolution
 * Validate precision of Air Volume measurements achievable with SFM3300
- * Preliminary results appear to be very good (sub-cc resolution, good repeatability)
- * Volume measuremets with repeatable presision - work in progress
- * Once validated - this project can be used for testing (cross-checking) other Air Flow and Volume sensors implementations
+  * Preliminary results appear to be very good (sub-cc resolution, good repeatability)
+  * Volume measuremets with repeatable presision - work in progress
+  * Once validated - this project can be used for testing (cross-checking) other Air Flow and Volume sensors implementations
 
 The code (or at least the snippets) is very compact and well commented. It can be adapted easily to any other C/C++ programming environment, or serve as examples for implementations in other programming languages.
 
